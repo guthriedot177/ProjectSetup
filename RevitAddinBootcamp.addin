@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Text>Command RevitAddinBootcamp</Text>
+		<Description>Some description for RevitAddinBootcamp</Description>
+		<Assembly>RevitAddinBootcamp.dll</Assembly>
+		<FullClassName>RevitAddinBootcamp.CmdProjectSetup</FullClassName>
+		<ClientId>487F3195-B7CF-4E5E-862F-BF10CCD777E3</ClientId>
+		<VendorId>edu.osu.pare</VendorId>
+		<VendorDescription>Just Tiffany from FITS</VendorDescription>
+	</AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitAddinBootcamp</Name>
+    <Assembly>RevitAddinBootcamp.dll</Assembly>
+    <FullClassName>RevitAddinBootcamp.App</FullClassName>
+    <ClientId>2da6abb1-3e08-4ff9-a232-df3a0eaa0f50</ClientId>
+    <VendorId>edu.osu.pare</VendorId>
+    <VendorDescription>Just Tiffany from FITS</VendorDescription>
+  </AddIn>
+</RevitAddIns>
